@@ -36,7 +36,7 @@ public class Humain {
 	public void perdreArgent(int perte) {
 		quantiteArgent-=perte;
 	}
-	private void parler(String texte) {
+	protected void parler(String texte) {
 		System.out.println(this.nom+"~ "+texte);
 	}
 	public Humain(String nom, String boissonFavorite, int quantiteArgent) {

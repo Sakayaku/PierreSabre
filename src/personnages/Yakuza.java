@@ -36,4 +36,9 @@ public class Yakuza extends Humain{
 	public void setReputation(int reputation) {
 		this.reputation = reputation;
 	}
+	@Override
+	public void direBonjour() {
+		super.direBonjour();
+		parler("Mon clan est celui de "+clan+".");
+	}
 }

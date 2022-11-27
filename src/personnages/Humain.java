@@ -24,7 +24,7 @@ public class Humain {
 	private void repondre(Humain humain) {
 		humain.direBonjour();
 	}
-	private void memoriser(Humain humain) {
+	protected void memoriser(Humain humain) {
 		if (nbConnaissances<memoire.length) {
 			memoire[nbConnaissances]=humain;
 			nbConnaissances+=1;
